@@ -1,0 +1,1 @@
+ /media/pc01/Data/GUL/Practices/chat_app/.dart_tool/flutter_build/df4496903fa6ca674f5a639369924242/native_assets.yaml: 
