@@ -1,3 +1,4 @@
+import 'package:chat_app/configs/apptheme.dart';
 import 'package:chat_app/pages/splashPage.dart';
 import 'package:flutter/material.dart';
 
@@ -11,6 +12,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
      debugShowCheckedModeBanner: false,
+     theme: lightTheme,
+     darkTheme: darkTheme,
+     themeMode: ThemeMode.dark,
       home: Splashpage(),
     );
   }
